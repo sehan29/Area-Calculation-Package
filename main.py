@@ -12,7 +12,8 @@ return_value = Backend.Area.area.secting_the_obstacle()
 Backend.Area.selecting_area_section.shape_filtering(return_value)
 
 
-
+text = "Hello, World!"
+print("\033[1m" + text + "\033[0m")
 
 
 

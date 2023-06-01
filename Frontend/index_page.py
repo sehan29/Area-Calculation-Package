@@ -9,8 +9,12 @@ def first_interface():
     
 
 def obsacles():
+    print("========================================================\n")
+    print("\t ~ ~ ~ Wellcome to Area Management System ~ ~ ~\n")
     print("1. Circle")
     print("2. Rectanle")
     print("3. Triangle")
     print("4. Square")
-    print("\n Select One Object to Calculate The Area : ")
+    print("5. Cylinder\n")
+    print("========================================================\n")
+    print("Select One Object to Calculate The Area : ")
