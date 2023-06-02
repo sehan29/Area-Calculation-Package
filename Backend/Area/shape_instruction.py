@@ -22,8 +22,8 @@ def circle_instruction():
 
 def cylinder():
     
-    radius_of_circle = 0
-    height_of_cycilder = 0
+
+    
     print("* To calculate the area of a Cylinder, You Have to input Radius of Cylinder and Height")
     print("* Surface Area = 2πr^2 + 2πrh")
     print("* r = Radius (m)")

@@ -6,13 +6,19 @@ class Circle:
         self.radius = radius
         
     def area_calculation(self):
+        
         area = (math.pi * self.radius * self.radius)
         area = round(area,2)
         """         print(area) """
         return area
         
     def surface_area(self):
-        pass
+        
+        area = (math.pi * self.radius * self.radius)
+        area = round(area,2)
+        """         print(area) """
+        return area
+        
     
     
     
@@ -28,7 +34,10 @@ class Rectangle:
         return area
         
     def surface_area(self):
-        pass
+        
+        surface_area = (self.width * self.height)
+        surface_area = round(surface_area,2)
+        return surface_area
     
 
 class Triangle:
