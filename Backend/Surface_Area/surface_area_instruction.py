@@ -26,15 +26,19 @@ def cylinder():
     
     radius_of_circle = 0
     height_of_cycilder = 0
-    print("* To calculate the area of a Cylinder, You Have to input Radius of Cylinder and Height")
+    print("* To calculate Surface area of a Cylinder, You Have to input Radius of Cylinder and Height")
     print("* Surface Area = 2πr^2 + 2πrh")
     print("* r = Radius (m)")
     print("* h = Height (m)\n")
     
     
     try:
-        radius_of_circle = float(input("Enter The Radius Of Cylinder : "))
+        radius_of_cylinder = float(input("Enter The Radius Of Cylinder : "))
         height_of_cycilder = float(input("Enter The Heght Of Cylinder : "))
+        surface_area_cylinder = surface_method.Cylinder(radius_of_cylinder, height_of_cycilder)
+        area = surface_area_cylinder.surace_area()
+        print("-------------------------------------")
+        print("The Area Of The Circle is ",area,'m\u00b2')
     
     except:
         print("---- Pleace Enter The Decimal Number ----")
@@ -49,8 +53,8 @@ def rectangle():
     print("=               =")
     print("=               =")
     print("=---------------=\n")
-    print("* To calculate the area of a Rectangle, You Have to input Width and Height")
-    print("* Surface Area = Rectangle Width x Rectangle Height")
+    print("* To calculate Surface Area of a Rectangle, You Have to input Width , Height , Depth")
+    print("* Surface Area = Rectangle ")
     print("* w = Width (m)")
     print("* h = Height (m)\n")
     
@@ -71,8 +75,8 @@ def rectangle():
 def instruction_cube():
     
     
-    print("* To calculate the area of a Triangle, You Have to input Base and Height")
-    print("* Surface Area = '(Base X Height)/2'")
-    print("* d = Base (m)")
+    print("* To calculate surface area of a Cube, You Have to input Base and Height")
+    print("* Surface Area = '(Width X Height) X 6'")
+    print("* w = Width (m)")
     print("* h = Height (m)\n")
     
