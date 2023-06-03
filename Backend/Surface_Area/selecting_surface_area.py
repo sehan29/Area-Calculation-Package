@@ -11,18 +11,20 @@ def selecting_surface_area(entered_value):
     
     elif(entered_value == 2):
         print("Rectanle")
-        pass
+        Backend.Surface_Area.surface_area_instruction.rectangle()
     
     elif(entered_value == 3):
         print("Triangle")
-        pass
+        
     
     elif(entered_value == 4):
         print("Square")
-        pass
+        Backend.Surface_Area.surface_area_instruction.instruction_cube()
+        
     elif(entered_value == 5):
         print("Cylinder")
-        pass
+        Backend.Surface_Area.surface_area_instruction.cylinder()
+        
     
     else:
         print("--- Please Enter The Decimal Number ---")

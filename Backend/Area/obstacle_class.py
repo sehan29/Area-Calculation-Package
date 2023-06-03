@@ -52,3 +52,20 @@ class Triangle:
     def surface_area(self):
         pass
         
+        
+class Cylinder:
+    def __init__(self,radius,height):
+        self.radius = radius
+        self.height = height
+        
+    def area_calculation(sekf):
+        pass
+        
+    
+    def surace_area(self):
+        surface_area_cylinder = ((2 * math.pi * self.radius * self.radius) + (2 * math.pi * self.radius * self.height))
+        surface_area_cylinder = round(surface_area_cylinder,2)
+        return surface_area_cylinder
+        
+        
+    
