@@ -14,8 +14,7 @@ def obsacles():
     print("1. Circle")
     print("2. Rectanle")
     print("3. Triangle")
-    print("4. Square")
-    print("5. Cylinder\n")
+    print("4. Square\n")
     print("========================================================\n")
     print("Select One Object to Calculate The Area : ")
     
@@ -23,11 +22,9 @@ def obsacles():
 def surface_area_objects():
     print("========================================================\n")
     print("\t ~ ~ ~ Wellcome to Area Management System ~ ~ ~\n")
-    print("1. Circle")
-    print("2. Rectanle")
-    print("3. Triangle")
-    print("4. Square")
-    print("5. Cylinder\n")
+    print("1. Cube")
+    print("2. Sphere")
+    print("3. Cylinder\n")
     print("========================================================\n")
     """ print("Select One Object to Calculate The Area : ") """
     

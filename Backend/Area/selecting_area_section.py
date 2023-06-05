@@ -28,11 +28,6 @@ def shape_filtering(shape_number):
         print("\033[1m" + "\t\tSquare" + "\033[0m")
         shape_ins.instruction_square()
         
-    elif(shape_number == 5):
-        
-        os.system('cls')
-        print("\033[1m" + "\t\tCylinder" + "\033[0m")
-        shape_ins.cylinder()
     else:
         
         os.system('cls')

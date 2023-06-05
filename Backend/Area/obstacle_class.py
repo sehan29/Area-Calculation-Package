@@ -11,16 +11,8 @@ class Circle:
         area = round(area,2)
         """         print(area) """
         return area
-        
-    def surface_area(self):
-        
-        area = (math.pi * self.radius * self.radius)
-        area = round(area,2)
-        """         print(area) """
-        return area
-        
-    
-    
+                
+       
     
 class Rectangle:
     def __init__(self,width,height):
@@ -32,12 +24,7 @@ class Rectangle:
         area = round(area,2)
         """         print(area) """
         return area
-        
-    def surface_area(self):
-        
-        surface_area = (self.width * self.height)
-        surface_area = round(surface_area,2)
-        return surface_area
+
     
 
 class Triangle:
@@ -49,23 +36,16 @@ class Triangle:
         area = ((self.base * self.height)/2)
         return area
     
-    def surface_area(self):
-        pass
+
         
         
-class Cylinder:
-    def __init__(self,radius,height):
-        self.radius = radius
-        self.height = height
+class Square:
+    def __init__(self,width):
+        self.width = width
         
-    def area_calculation(sekf):
-        pass
-        
-    
-    def surace_area(self):
-        surface_area_cylinder = ((2 * math.pi * self.radius * self.radius) + (2 * math.pi * self.radius * self.height))
-        surface_area_cylinder = round(surface_area_cylinder,2)
-        return surface_area_cylinder
+    def area_calculation(self):
+        area = self.width * self.width
+        return area
         
         
     
