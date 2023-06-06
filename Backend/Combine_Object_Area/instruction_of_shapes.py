@@ -1,5 +1,6 @@
 import Backend.Area.obstacle_class as my_class
 
+
 def circle_instruction():
     
     radius_of_circle = 0
@@ -11,11 +12,7 @@ def circle_instruction():
         radius_of_circle = float(input("Enter The Radius Of Circle : "))
         k = my_class.Circle(radius_of_circle)
         area_of = k.area_calculation()
-        """ my_class.Circle.area_calculation(self) """
-        print("-------------------------------------")
-        print("The Area Of The Circle is ",area_of,'m\u00b2')  
-       
-        
+        return area_of        
         
     
     except:
@@ -61,9 +58,10 @@ def rectangle():
         height_of_rectangle = float(input("Enter The Heght Of Rectangle : "))
         rectangle_obj = my_class.Rectangle(width_of_rectangle, height_of_rectangle)
         area_of_rectangle = rectangle_obj.area_calculation()
-        area_of_rectangle = round(area_of_rectangle,2)
-        print("-------------------------------------")
-        print("The Area Of The Rectanglr is ",area_of_rectangle,'m\u00b2')  
+        
+        print(area_of_rectangle)
+        
+        return area_of_rectangle 
         
 
     
@@ -107,13 +105,11 @@ def instruction_triangle():
         height_of_triangle = float(input("Enter The Height Of Triangle : "))
         triangle = my_class.Triangle(base_of_triangle, height_of_triangle)
         area_of_triangle = triangle.area_calculation()
-        print("-------------------------------------")
-        print("The Area Of The Triangle is ",area_of_triangle,'m\u00b2') 
+        
+        return area_of_triangle
         
     
     except:
         print("---- Please Enter The Decimal Number ----")
         
-    
-    
     

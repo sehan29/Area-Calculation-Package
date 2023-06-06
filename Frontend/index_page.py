@@ -28,3 +28,14 @@ def surface_area_objects():
     print("========================================================\n")
     """ print("Select One Object to Calculate The Area : ") """
     
+
+
+def combination_shapes():
+    
+    print("========================================================\n")
+    print("1. Circle")
+    print("2. Rectanle")
+    print("3. Triangle")
+    print("4. Square\n")
+    print("========================================================\n")
+    print("Select Two Objects to Calculate Combine area of Shapes : ")

@@ -1,6 +1,5 @@
 import os
-import Backend.Combine_Object_Area.instruction_of_shapes
-
+import Backend.Combine_Object_Area.instruction_of_shapes as instruction
 
 
 def shape_filtering(shape_number):
@@ -8,33 +7,31 @@ def shape_filtering(shape_number):
         
         os.system('cls')
         print("\033[1m" + "\t\tCircle" + "\033[0m")
-        
-        print("Circle")
-     
-             
+        result = instruction.circle_instruction()
+        return result
+                 
     elif(shape_number == 2):
         
         os.system('cls')
         print("\033[1m" + "\t\tRectangle" + "\033[0m")
-        
-        print("Rectangle")
+        result = instruction.rectangle()
+        return result
         
               
     elif(shape_number == 3):
         
         os.system('cls')
         print("\033[1m" + "\t\tTriangle" + "\033[0m")
-        
-        print("Triangle")
+        result = instruction.instruction_triangle()
+        return result
          
         
     elif(shape_number == 4):
        
         os.system('cls') 
         print("\033[1m" + "\t\tSquare" + "\033[0m")
-
-        
-        print("Square")
+        result = instruction.instruction_square()
+        return result
        
         
     else:
