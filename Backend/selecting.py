@@ -39,25 +39,44 @@ def user_selection(value):
         current_objects = []
         mystring = ""
         
-        for i in range(0,2):
+        """     print("How Many Iterms Do You Combine : ") """
+        try:
             
-            Frontend.index_page.combination_shapes()
-            first_user_input = Backend.Combine_Object_Area.get_the_inputs_to_calculate_combile_area.user_inputs()
-            current_objects.append(first_user_input)
-            area_of_one_obj += Backend.Combine_Object_Area.combine_shape_instructuin.shape_filtering(first_user_input)
+            number_of_iterms = int(input("How Many Iterms Do You Combine : "))
             
+            for i in range(0,number_of_iterms):
+                
+                Frontend.index_page.combination_shapes()
+                first_user_input = Backend.Combine_Object_Area.get_the_inputs_to_calculate_combile_area.user_inputs()
+                current_objects.append(first_user_input)
+                area_of_one_obj += Backend.Combine_Object_Area.combine_shape_instructuin.shape_filtering(first_user_input)
+                
+            for i in range(0,number_of_iterms):
+                
+                
+                mystring = mystring + obstacle_list[current_objects[i]]                
+                
+                if(i == number_of_iterms-1):
+                    
+                    break
+                
+                else:
+                    
+                    mystring += " and "
             
-        for i in range(0,2):
-            mystring = mystring + obstacle_list[current_objects[i]] + " and "
-        
-        
-        
-        
-        print("The Area Of "+mystring+"=",area_of_one_obj)
-        """     print(mystring)
-        print(area_of_one_obj) """
+            print("The Area Of "+mystring+" = ",area_of_one_obj,'m\u00b2')
+                    
             
+        except:
+            
+            print("Please Enter The Decimal Value")
         
+        
+
+        
+        
+
+                  
         
     elif(value == 4):
         print("Exit")

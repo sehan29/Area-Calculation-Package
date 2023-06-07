@@ -114,6 +114,8 @@ def instruction_triangle():
     except:
         print("---- Please Enter The Decimal Number ----")
         
-    
+
+
+
     
     

@@ -16,6 +16,10 @@ def selecting_surface_area(entered_value):
     elif(entered_value == 3):
         print("Triangle")
         Backend.Surface_Area.surface_area_instruction.cylinder()
+        
+    elif(entered_value == 4):
+        print("Cone")
+        Backend.Surface_Area.surface_area_instruction.con_ins()
        
     
     else:

@@ -24,7 +24,8 @@ def surface_area_objects():
     print("\t ~ ~ ~ Wellcome to Area Management System ~ ~ ~\n")
     print("1. Cube")
     print("2. Sphere")
-    print("3. Cylinder\n")
+    print("3. Cylinder")
+    print("4. Cone\n")
     print("========================================================\n")
     """ print("Select One Object to Calculate The Area : ") """
     
