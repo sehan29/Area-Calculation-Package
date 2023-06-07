@@ -35,3 +35,31 @@ class Cylinder:
         area = ((2 * math.pi * self.radius * self.radius) +(2 * math.pi * self.radius * self.height))
         area = round(area,2)
         return area
+    
+class Cone:
+    
+    def __init__(self,radius,slant_height):
+        self.radius = radius
+        self.slant_height = slant_height
+        
+    def surface_area(self):
+        
+        area = math.pi * self.radius * self.slant_height
+        area = round(area,2)
+        return area
+    
+    
+    
+class Cuboid:
+    
+    def __init__(self,width,height,length):
+        
+        self.width = width
+        self.height = height
+        self.length = length
+    
+    def surface_area(self):
+        
+        area = 2((self.width*self.length) + (self.length*self.height) + (self.width * self.height))
+        area = round(area,2)
+        return area

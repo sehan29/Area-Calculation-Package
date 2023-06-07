@@ -117,3 +117,37 @@ def sphere_object():
     
     except:
         print("---- Please Enter The Decimal Number ----")
+
+
+
+def con_ins():
+    
+    print("* To Calculate Surface area of Cone, You Have to input Radius and slant height")
+    print("* Surface Area = 'π*r^2*l'")
+    print("* r = Radius (m)\n")
+    print("* l = Slant Height (m)")
+    
+    try:
+        
+        radius_of_cone = float(input("Enter The Radius Of Cone : "))
+        slant_height = float(input("Enter The Slant Height Of Cone : "))
+        con_obj = obb.Cone(radius_of_cone, slant_height)
+        area_of_cone = con_obj.surface_area()
+        print("-------------------------------------")
+        print("The Surface Area Of The Cone is ",area_of_cone,'m\u00b2')
+        
+    except:
+        
+        print("---- Pleace Enter Decimal Number ----")
+        
+        
+        
+def cuboid_instruction():
+    
+    
+    print("* To Calculate Surface Area of Cuboid, You Have to input Width , Height and Length")
+    print("* Surface Area = 'π*r^2*l'")
+    print("* W = Rad (m)\n")
+    print("* L = Length (m)")
+    print("* H = Heigth (m)")
+    
